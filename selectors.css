@@ -1,0 +1,100 @@
+/* Style the HTML elements according to the following instructions. 
+DO NOT CHANGE THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
+/* Give the <body> element a background of #bdc3c7*/
+body{
+	background-color: #bdc3c7;
+}
+
+/* Make the <h1> element #9b59b6*/
+h1{
+	color: #9b59b6;
+}
+
+/* Make all <h2> elements orange */
+h2{
+	color: orange;
+}
+
+/* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
+li{
+	color: #120397;	
+}
+
+/*Change the background on every paragraph to be yellow*/
+p{
+	background-color: #f3f579;
+}
+/*Make all inputs have a 3px red border*/
+.inp, .inp1{
+	border:3px solid #ff0000;
+}
+
+/* Give everything with the class 'hello' a white background*/
+
+.hello{
+	background-color: #ffffff;
+}
+
+/* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
+
+#special{
+	border:2px solid rgb(66, 28, 233);
+}
+/*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
+.content{
+	font-size:25px;
+}
+/*Make only inputs with type 'text' have a gray background*/
+
+.inp1{
+	background-color: gray;
+}
+
+/* Give both <p>'s inside the 3rd <div> a pink background*/
+.content1,.content2{
+	background-color: pink;
+}
+
+/* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
+
+
+.content2{
+	border:5px solid white;
+}
+
+/* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
+
+em{
+	color: white;
+	font-size: 20px;
+}
+
+
+/*BONUS CHALLENGES*/
+/*You may need to research some other selectors and properties*/
+
+/*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
+input[type=checkbox]{
+	margin-left: 50px;
+}
+
+label{
+	text-transform: uppercase;
+}
+
+/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
+#special::first-letter{
+	font-size: 100px;
+	color: green;
+}
+
+/*Make the <h1> element's color change to blue when hovered over */
+h1:hover{
+	background-color: blue;
+}
+
+/*Make the <a> element's that have been visited gray */
+
+a:visited{
+color: gray;
+}
